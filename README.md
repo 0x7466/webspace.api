@@ -206,10 +206,11 @@ Authorization: Bearer YOUR_TOKEN
 
 ### OpenAPI Specification
 
-Access the full OpenAPI 3.1.0 spec (no auth required):
+Access the full OpenAPI 3.1.0 spec:
 
 ```http
 GET /webspace.api.php?openapi
+Authorization: Bearer YOUR_TOKEN
 ```
 
 ## Error Responses
